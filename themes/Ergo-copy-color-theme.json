@@ -126,6 +126,7 @@
 			],
 			"settings": {
 				"foreground": "#689b39",
+				"fontStyle": "bold"
 			}
 		},
 		// javascript specific
