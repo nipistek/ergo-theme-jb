@@ -119,6 +119,15 @@
 				"foreground": "#213b75",
 			}
 		},
+		{
+			"scope": [
+				"meta.function.decorator.python",
+				"entity.name.function.decorator.python"
+			],
+			"settings": {
+				"foreground": "#689b39",
+			}
+		},
 		// javascript specific
 		{
 			"scope": "support.type.object.module",
@@ -193,7 +202,7 @@
 		{
 			"scope": "meta.declaration.annotation.java",
 			"settings": {
-				"foreground": "#3b7564",
+				"foreground": "#689b39",
 				"fontStyle": "bold"
 			}
 		},
