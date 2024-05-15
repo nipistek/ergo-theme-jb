@@ -1,0 +1,21 @@
+{
+  "name": "ergo-theme-jb",
+  "displayName": "jonggwan-ergo-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ergo-copy",
+        "uiTheme": "vs",
+        "path": "./themes/Ergo-copy-color-theme.json"
+      }
+    ]
+  }
+}

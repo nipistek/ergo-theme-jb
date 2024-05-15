@@ -1,0 +1,194 @@
+{
+	"name": "Ergo-copy",
+	"type": "light",
+	"colors": {
+		"activityBar.background": "#ffffff",
+		"activityBar.foreground": "#000000",
+		"activityBarBadge.background": "#007acc",
+		"activityBarBadge.foreground": "#ffffff",
+		"button.background": "#007acc",
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#005a9e",
+		"editor.background": "#e8e8e8",
+		"editor.foreground": "#222222",
+		"editor.lineHighlightBackground": "#f0f0f0",
+		"editor.selectionBackground": "#cccccc",
+		"editor.selectionForeground": "#111111",
+		"editorLineNumber.foreground": "#777777",
+		"editorIndentGuide.background1": "#cccccc",
+		"editorIndentGuide.activeBackground1": "#111111",
+		"editorCursor.foreground": "#000000",
+		"editorWhitespace.foreground": "#d3d3d3",
+		"editorRuler.foreground": "#d3d3d3",
+		"sideBar.background": "#ffffff",
+		"sideBar.foreground": "#000000",
+		"sideBarTitle.foreground": "#000000",
+		"sideBarSectionHeader.background": "#ffffff",
+		"sideBarSectionHeader.foreground": "#000000",
+		"statusBar.background": "#ffffff",
+		"statusBar.foreground": "#000000",
+		"statusBar.noFolderBackground": "#ffffff",
+		"statusBar.noFolderForeground": "#000000",
+		"statusBarItem.hoverBackground": "#e0e0e0",
+		"titleBar.activeBackground": "#ffffff",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.inactiveBackground": "#f0f0f0",
+		"titleBar.inactiveForeground": "#000000",
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment", "string.quoted.docstring"],
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"scope": ["string.quoted.single", "string.quoted.double", "string.quoted.triple",],
+			"settings": {
+				"foreground": "#821f01"
+			}
+		},
+		{
+			"scope": ["keyword.control", "storage.type.class", "storage.type.function"],
+			"settings": {
+				"foreground": "#88225c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": ["constant.numeric.decimal"],
+			"settings": {
+				"foreground": "#9c1a00",
+			}
+		},
+		// {
+		// 	"scope": "constant",
+		// 	"settings": {
+		// 		"foreground": "#88225c",
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// hightlight python magic methods
+		{
+			"scope": "support.function.magic.python",
+			"settings": {
+				"foreground": "#88225c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function", "entity.name.class",
+				"meta.function-call.generic",
+				"variable.language.special",
+				"storage.type.string",
+			],
+			"settings": {
+				"foreground": "#213b75",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "variable.parameter.function.language.special",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		// python specific
+		{
+			"scope": "support.type.exception.python",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		// javascript specific
+		{
+			"scope": "support.type.object.module",
+			"settings": {
+				"foreground": "#ff0000",
+			}
+		},
+		// html specific
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#213b75",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "entity.name.tag.css",
+			"settings": {
+				"foreground": "#213b75",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.sass",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.scss",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.less",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.stylus",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		{
+			"scope": "support.type.property-name.postcss",
+			"settings": {
+				"foreground": "#213b75",
+			}
+		},
+		// java specific
+		{
+			"scope": "meta.declaration.annotation.java",
+			"settings": {
+				"foreground": "#3b7564",
+				"fontStyle": "bold"
+			}
+		},
+		// other c-like language specific
+		{
+			"scope": [
+				"storage.type.primitive",
+				"storage.modifier.java", "meta.class.identifier.java",
+			],
+			"settings": {
+				"foreground": "#88225c",
+				"fontStyle": "bold"
+			}
+		}
+	]
+}
