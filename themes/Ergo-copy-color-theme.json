@@ -53,6 +53,7 @@
 				"keyword.control", "keyword.function", "keyword.package",
 				"storage.type.class", "storage.type.function", 
 				"storage.modifier", "storage.type",
+				"constant.language",
 			],
 			"settings": {
 				"foreground": "#88225c",
@@ -127,7 +128,7 @@
 			"settings": {
 				"foreground": "#689b39",
 				"fontStyle": "bold"
-			}
+			},
 		},
 		// javascript specific
 		{
